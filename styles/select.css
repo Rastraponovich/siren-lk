@@ -1,0 +1,22 @@
+.custom_select__control {
+    @apply relative w-full bg-transparent border  rounded shadow-sm pl-3 pr-11 py-4 text-center cursor-pointer focus:outline-none focus:ring-1  sm:text-sm;
+}
+
+.custom_select__control:focus-within .custom_select__indicator,
+.custom_select__control:focus .custom_select__indicator {
+    @apply fill-[#4d4d4d];
+}
+
+.custom_select__options {
+    @apply absolute z-10  w-full bg-white shadow-lg max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm;
+}
+.custom_select__option {
+    @apply cursor-pointer select-none relative py-2 pl-3 pr-9;
+}
+
+.custom_select__option:hover {
+    @apply bg-myOrange-primary text-white;
+}
+.custom_select__indicator {
+    @apply hover:fill-[#4d4d4d];
+}

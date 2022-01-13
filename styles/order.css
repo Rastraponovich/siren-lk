@@ -1,0 +1,36 @@
+.order-label .input:focus,
+.order-label .input:focus-visible {
+    @apply border-[color:#4d4d4d];
+}
+.order-label .input {
+    @apply pl-2 ml-2 py-3 placeholder-[color:#404040] border-[color:#DDDEE4] border-solid border;
+}
+
+.input-radio {
+    @apply mr-2;
+}
+
+.order-table tbody td {
+    @apply py-2.5;
+}
+.order-table tbody td:last-child {
+    color: #605f5f;
+}
+.material-item {
+    @apply mr-1 mb-1 last:mr-0 last:mb-0 px-2 items-center;
+}
+
+.material img {
+    @apply border-2 border-solid border-[color:#c4c4c4] rounded-[5px] cursor-pointer;
+}
+.material .active {
+    @apply border-[color:#141414];
+}
+
+.order-paper {
+    @apply mb-[45px] bg-white px-8 md:px-20 py-6 rounded-r-lg md:-ml-20 flex flex-col;
+}
+
+.order-paper-md {
+    @apply mb-[45px] bg-white px-2 py-6 rounded-r-lg;
+}

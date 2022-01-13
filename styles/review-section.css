@@ -1,0 +1,21 @@
+@tailwind components;
+
+/* refactoring */
+
+@layer components {
+    .review-section {
+        @apply xl:review-section--xl;
+    }
+
+    .review-section--xl {
+        @apply pt-[100px] pb-[22px] px-20;
+    }
+
+    .review-section .button {
+        line-height: 21px;
+        letter-spacing: 0.2px;
+    }
+    .review-section .section-title {
+        @apply uppercase text-4xl font-medium text-[color:#494949] leading-[43px];
+    }
+}
